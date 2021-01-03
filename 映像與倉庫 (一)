@@ -1,1 +1,88 @@
+# 雲端通訊整合實務(9/22)
+###### tags: `docker`
 
+# docker 介紹
+
+docker 是一個快速開發的平台，其中的容器可以快速的產生並支援線上服務，而docker也支援多平台。
+![](https://i.imgur.com/SvjEnLx.jpg)
+
+
+## docker vs 傳統機器
+
+![](https://i.imgur.com/KbWg5YP.png)
+
+傳統機器例如虛擬機，它較為沈重且吃資源，因此當電腦開到3、4台時通常就附和不了，而docker是屬於輕量化的設計，且每個容器都是屬於一個隔離的個體。
+
+# docker 指令
+
+從docker官網開放鏡像
+```
+docker pull [鏡像名稱]
+```
+將鏡像上傳到dockerhub
+```
+docker push [鏡像名稱]
+```
+查看docker鏡像
+```
+docker images
+```
+啟動鏡像
+```
+docker run -d(detent:背景執行) --name=[容器名稱] -p [centos對應容器的埠:容器對外的埠] 鏡像
+```
+> 舉例：
+```
+docker run -d --name myhttpd -p 8080:80 httpd
+```
+停止容器
+```
+docker stop [容器ID]
+```
+
+啟動容器
+```
+docker start [容器ID]
+```
+查看容器狀態
+```
+docker ps / docker ps -a(all:全部)
+```
+查看容器詳細資訊
+```
+docker logs [容器ID]
+```
+刪除容器
+```
+docker rm -f [容器ID]
+```
+一次性刪除未啟動的容器
+```
+docker rm -f `docker ps -a -q(q:quit)`
+```
+一次性刪除未啟動的鏡像
+```
+docker rmi(i:images) `docker images -q`
+```
+登入dockerhub
+```
+docker login (帳號/密碼)
+```
+# 測試1
+
+從docker官方下載httpd鏡像，並且啟動容器
+```
+docker pull httpd
+```
+```
+docker run -itd myhttpd -p 8080:80 httpd:latest
+```
+測試容器是否有成功啟動，可以打開網頁打上
+```
+http://127.0.0.1:8080
+```
+成功後會看到以下畫面：
+![](https://i.imgur.com/K7JQepU.png)
+
+# 參考文獻
+[上課影片](https://drive.google.com/drive/folders/1hNHZLc0Mu484g3218Lr303k_3TEKatUS?usp=sharing)
