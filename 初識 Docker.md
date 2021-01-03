@@ -134,5 +134,4 @@ kill -9 [53埠的ID]
 成功後會出現以下畫面：
 ![](https://i.imgur.com/iM3muqg.jpg)
 
-# 參考文獻
-[上課影片](https://drive.google.com/drive/folders/1KAFgGqWMBBATryLE9tJwxxVP77FfxHCA?usp=sharing)
+
