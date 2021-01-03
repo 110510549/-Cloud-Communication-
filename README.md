@@ -18,20 +18,20 @@
 ---
 ### 課堂範圍
 
-初識 Docker
-映像與倉庫 (一)
-映像與倉庫 (二)
-映像與倉庫 (三)
-管理和使用容器
-資料卷與網路 (一)
-資料卷與網路 (二)
-資料卷與網路 (三)
-期中週
-docker swarm (一)
-docker swarm (二)
-kubernetes (一)
-kubernetes (二)
-kubernetes (三)
-kubernetes (四)
-kubernetes (五)
-期末週
+1. 初識 Docker
+2. 映像與倉庫 (一)
+3. 映像與倉庫 (二)
+4. 映像與倉庫 (三)
+5. 管理和使用容器
+6. 資料卷與網路 (一)
+7. 資料卷與網路 (二)
+8. 資料卷與網路 (三)
+9. 期中週
+10. docker swarm (一)
+11. docker swarm (二)
+12. kubernetes (一)
+13. kubernetes (二)
+14. kubernetes (三)
+15. kubernetes (四)
+16. kubernetes (五)
+17. 期末週
