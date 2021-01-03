@@ -11,12 +11,8 @@
 期末考：40%
 平時成績：30%
 
-## 上課連結
-
-[Webex](https://meetingsapac5.webex.com/meet/smallko)
-
 ---
-### 課堂範圍
+### 課程大綱
 
 1. 初識 Docker
 2. 映像與倉庫 (一)
@@ -37,5 +33,5 @@
 17. 期末週
 
 ## Reference
-
+[Webex](https://meetingsapac5.webex.com/meet/smallko)
 [上課影片](https://drive.google.com/drive/folders/1oM_ejAeSIhGbDGAVBDnVRv4DuoXaDwYw?usp=sharing)
