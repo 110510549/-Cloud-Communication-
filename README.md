@@ -35,3 +35,7 @@
 15. kubernetes (四)
 16. kubernetes (五)
 17. 期末週
+
+## Reference
+
+[上課影片](https://drive.google.com/drive/folders/1oM_ejAeSIhGbDGAVBDnVRv4DuoXaDwYw?usp=sharing)
