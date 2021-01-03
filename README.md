@@ -33,5 +33,5 @@
 17. 期末週
 
 ## Reference
-[Webex](https://meetingsapac5.webex.com/meet/smallko)
-[上課影片](https://drive.google.com/drive/folders/1oM_ejAeSIhGbDGAVBDnVRv4DuoXaDwYw?usp=sharing)
+1. [Webex](https://meetingsapac5.webex.com/meet/smallko)
+2. [上課影片](https://drive.google.com/drive/folders/1oM_ejAeSIhGbDGAVBDnVRv4DuoXaDwYw?usp=sharing)
