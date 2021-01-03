@@ -74,6 +74,7 @@ iptables -t nat -A POSTROUTING -o enp0s3 -s 192.168.1.0/24 -j MASQUERADE
 **請在VM1環境安裝docker、docker-compose**
 
 安裝docker可參考：https://docs.docker.com/engine/install/centos/
+
 安裝docker-compose可參考：https://docs.docker.com/compose/install/
 
 安裝完請開啟docker
@@ -83,6 +84,7 @@ systemctl start docker
 
 dockerhub下載adguard官方鏡像，可參考：
 https://hub.docker.com/r/adguard/adguardhome
+
 ```
 docker pull adguard/adguardhome
 ```
