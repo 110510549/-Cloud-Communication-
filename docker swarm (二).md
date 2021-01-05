@@ -42,7 +42,7 @@ oesztde5fv0f        myweb2              global              3/3                 
 
 將其中一台 worker 關掉，並且測試`bridge`模式下，不同模式的 httpd 副本會如何進行部署
 
-![Imgur](https://imgur.com/xEfanJK.mp4)
+![Imgur](https://imgur.com/xEfanJK)
 
 這邊可以看到，當關掉`vm2`後，myweb1 會先重新部署在其他`vm`上，而當重新開啟`vm2`時，myweb2 便會重新部署在該節點上
 
@@ -98,7 +98,7 @@ overall progress: 3 out of 3 tasks
 verify: Service converged 
 ```
 
-![Imgur](https://imgur.com/T1AuvhT.mp4)
+![Imgur](https://imgur.com/T1AuvhT)
 
 其中可以看到，當在滾動更新時，副本數是一項一項更新的，更新完後可以透過 visualizer 查看或是透過以下指令`docker service ls`去進行查看
 
@@ -364,7 +364,7 @@ ID                  NAME                MODE                REPLICAS            
 1o7d2ckrtv4d        myweb1              replicated          6/6                 httpd:2.4.46        *:8001->80/tcp
 ```
 
-![Imgur](https://imgur.com/8kSlHbQ.mp4)
+![Imgur](https://imgur.com/8kSlHbQ)
 
 ### 回滾(Rolling Back)
 
@@ -700,7 +700,7 @@ overall progress: 2 out of 2 tasks
 verify: Service converged 
 ```
 
-![Imgur](https://imgur.com/dmUdd10.mp4)
+![Imgur](https://imgur.com/dmUdd10)
 
 
 移除節點標籤
